@@ -4,7 +4,7 @@ public class Client {
 	
 	public static void main(String[] args) {
 
-		Logger logger = new DatabaseLogger();
+		Logger logger = new FileLogger();
 		logger.writeLog();
 
 	}
